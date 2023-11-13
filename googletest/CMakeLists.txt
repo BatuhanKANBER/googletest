@@ -329,5 +329,5 @@ if (gtest_build_tests)
   py_test(googletest-json-output-unittest --no_stacktrace_support)
 endif()
 
-install(TARGETS GoogleTest DESTINATION /home/jenkins/install/GoogleTest)
+install(TARGETS install DESTINATION /home/jenkins/install/GoogleTest)
 
